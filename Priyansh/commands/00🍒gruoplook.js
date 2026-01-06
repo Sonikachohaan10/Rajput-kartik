@@ -1,17 +1,17 @@
-const axios = require('axios');
-const fs = require('fs-extra');
-const path = require('path');
+const fs = require("fs-extra");
+const axios = require("axios");
+const path = require("path");
 
-module.exports = {
-  config: {
-    name: 'lockgroup',
-    aliases: ['lock', 'lockgc'],
-    description: 'Lock group settings (name, emoji, theme, image)',
-    usage: 'lockgroup [name/emoji/theme/image/all] [on/off]',
-    category: 'Group',
-    groupOnly: true,
-    prefix: true
-  },
+module.exports.config = {
+  name: "lockgroup",
+  version: "1.0.0",
+  hasPermssion: 1,
+  credits: "Raj",
+  description: "Lock group name and photo, and auto-reset on change",
+  commandCategory: "group",
+  usages: "[on/off]",
+  cooldowns: 5
+},
 
   async run({ api, event, args, send, Threads, config }) {
     const { threadID, senderID } = event;
