@@ -182,7 +182,7 @@ if ((event.body.toLowerCase() == "satting karva de") || (event.body.toLowerCase(
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "bos")) {
-     return api.sendMessage("https://www.facebook.com/share/17WfouwH1u/", threadID);
+     return api.sendMessage("https://www.facebook.com/share/17WfouwH1u/Accoʋŋtʌŋt Aŋsʜ", threadID);
    };
 
    if ((event.body.toLowerCase() == "kamchor") || (event.body.toLowerCase() == "rakh de mobile")) {
