@@ -2,7 +2,7 @@ module.exports.config = {
     name: "fyt",
     version: "1.0.0",
     hasPermssion: 2,
-    credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+    credits: "𝐊𝐀𝐑𝐓𝐈𝐊 𝐑𝐚𝐣𝐩𝐮𝐭",
     description: "War In Chatbox",
     commandCategory: "wargroup",
     usages: "[fyt]",
